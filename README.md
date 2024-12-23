@@ -20,6 +20,7 @@
 - 모델 비교: 표준 U-Net과 Depthwise Convolution을 적용한 경량 U-Net 모델.
 
 * 주요 성능 지표
+
 모델                        파라미터     수 연산량 (FLOPs)   IoU (Intersection over Union)   Dice Score    학습 시간 (1 epoch)
 Standard U-Net               31.03M       15.2 GFLOPs                    0.825                 0.842         10분
 Depthwise Convolution U-Net   2.89M       1.57 GFLOPs                    0.811                 0.834          6분
@@ -38,6 +39,7 @@ Depthwise Convolution U-Net   2.89M       1.57 GFLOPs                    0.811  
 - 테스트 데이터: 샘플 이미지 (128x128) 50장.
 
 * 테스트 성능
+
 모델                          처리 속도 (FPS)   평균 예측 시간 (1 이미지)   메모리 사용량    모델 크기
 Standard U-Net (TensorFlow)      0.5 FPS                  2.0초               1.2 GB         123 MB
 Depthwise U-Net (TFLite)         8.5 FPS                 0.12초               320 MB         2.7 MB
