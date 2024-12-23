@@ -2,7 +2,7 @@
 
 ## Depthwise Convolution 기반 U-Net 모델 결과 분석 ##
 
-1. 개요
+# 1. 개요
    
 이번 프로젝트에서는 U-Net 모델에 Depthwise Convolution을 적용하여 기존의 표준 Convolution 기반 모델보다 더 효율적이고 가벼운 모델을 구현했습니다. 이 모델은 의료 영상 분할, 객체 분할과 같은 픽셀 단위의 예측 문제에서 높은 성능을 보이며, 경량화된 설계로 IoT 기기에서도 실행 가능한 수준으로 최적화되었습니다.
 
@@ -14,7 +14,7 @@
 
 
 
-2. Kaggle 결과
+# 2. Kaggle 결과
 
  평가 환경
 - 플랫폼: Kaggle Notebook 환경
@@ -37,7 +37,7 @@ Depthwise Convolution U-Net |    38.0764M  |     (128, 128, 3)   |          1.45
 
 
 
-3. Raspberry Pi에서의 실행 결과
+# 3. Raspberry Pi에서의 실행 결과
 
 
  평가 환경
@@ -61,7 +61,7 @@ Depthwise Convolution U-Net |    38.0764M  |     (128, 128, 3)   |          1.45
 
 
 
-4. 결론
+# 4. 결론
 
 
 Depthwise Convolution을 적용한 U-Net 모델은 다음과 같은 장점을 보였습니다:
