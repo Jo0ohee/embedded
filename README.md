@@ -43,8 +43,8 @@ Depthwise Convolution U-Net |     2.89M  |     1.57 GFLOPs    |              0.8
 
 | 모델                       |   처리 속도 (FPS)  | 평균 예측 시간 (1 이미지) |  메모리 사용량 |   모델 크기 |
 |---------------------------|-------------------|----------------------------|----------------|-------------|
-Standard U-Net (TensorFlow)      0.5 FPS                  2.0초               1.2 GB         123 MB
-Depthwise U-Net (TFLite)         8.5 FPS                 0.12초               320 MB         2.7 MB
+|Standard U-Net (TensorFlow)|      0.5 FPS       |           2.0초         |      1.2 GB      |   123 MB    |
+|Depthwise U-Net (TFLite)    |     8.5 FPS        |         0.12초        |       320 MB     |    2.7 MB    |
 
 * 결과 분석
 - 실시간 처리: Depthwise U-Net은 Raspberry Pi에서 초당 약 8.5 프레임을 처리하며, 실시간 응용 가능성을 입증.
