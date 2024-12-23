@@ -21,9 +21,10 @@
 
 * 주요 성능 지표
 
-모델                        파라미터     수 연산량 (FLOPs)   IoU (Intersection over Union)   Dice Score    학습 시간 (1 epoch)
-Standard U-Net               31.03M       15.2 GFLOPs                    0.825                 0.842         10분
-Depthwise Convolution U-Net   2.89M       1.57 GFLOPs                    0.811                 0.834          6분
+|            모델           |  파라미터 |   수 연산량 (FLOPs) |  IoU (Intersection over Union) |  Dice Score  |  학습 시간 (1 epoch)
+|---------------------------|-----------|--------------------|-------------------------------|-------------|---------------------|
+|Standard U-Net            |      31.03M |       15.2 GFLOPs  |                0.825        |          0.842 |             10분|
+Depthwise Convolution U-Net |     2.89M  |     1.57 GFLOPs    |              0.811              |    0.834         |      6분|
 
 * 결과 분석
 - 경량화: Depthwise Convolution 모델은 표준 모델에 비해 약 10배 적은 파라미터와 연산량을 요구하며, 학습 속도가 약 40% 향상되었습니다.
