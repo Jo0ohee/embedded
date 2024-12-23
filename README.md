@@ -62,3 +62,6 @@ Depthwise Convolution을 적용한 U-Net 모델은 다음과 같은 장점을 �
 - 모델 성능 향상: Depthwise Convolution의 약간의 성능 저하를 극복하기 위해 혼합적인 Convolution 기법 탐구
 - 하드웨어 최적화: 다른 경량 기기(예: NVIDIA Jetson Nano, Coral TPU)에서 성능 평가
 - 이 모델은 경량화와 성능 간의 균형을 맞춘 사례로, 다양한 응용 분야에 활용될 수 있습니다
+
+
+파라미터 대비 가장 성능이 좋은 Depthwise Convolution만 readme에 작성하였고, 다른 8가지의 경량화 기법을 사용한 모델은 결과 보고서에 기입하였습니다.
